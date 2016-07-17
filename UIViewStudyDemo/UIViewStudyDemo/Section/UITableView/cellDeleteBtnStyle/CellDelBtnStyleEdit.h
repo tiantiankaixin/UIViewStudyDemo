@@ -1,13 +1,13 @@
 //
-//  FlowLayoutCell.h
+//  CellDelBtnStyleEdit.h
 //  UIViewStudyDemo
 //
-//  Created by wangtian on 16/4/26.
+//  Created by maliang on 16/7/17.
 //  Copyright © 2016年 wangtian. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface FlowLayoutCell : UICollectionViewCell
+@interface CellDelBtnStyleEdit : UITableViewController
 
 @end

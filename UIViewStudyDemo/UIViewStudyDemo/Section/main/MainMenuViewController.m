@@ -8,6 +8,7 @@
 
 #import "MainMenuViewController.h"
 #import "CollectionViewIndexViewController.h"
+#import "TalbleViewIndex.h"
 
 @interface MainMenuViewController ()
 
@@ -31,6 +32,7 @@
 - (void)configureDataSource
 {
     [self addARowWithCellTitle:@"UICollectionView" vcClass:[CollectionViewIndexViewController class] turnType:M_push];
+    [self addARowWithCellTitle:@"UITableView" vcClass:[TalbleViewIndex class] turnType:M_push];
 }
 
 - (void)didReceiveMemoryWarning

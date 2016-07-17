@@ -1,13 +1,13 @@
 //
-//  MainMenuViewController.h
+//  TalbleViewIndex.h
 //  UIViewStudyDemo
 //
-//  Created by wangtian on 16/4/26.
+//  Created by maliang on 16/7/17.
 //  Copyright © 2016年 wangtian. All rights reserved.
 //
 
 #import "MenuTemplateVC.h"
 
-@interface MainMenuViewController : MenuTemplateVC
+@interface TalbleViewIndex : MenuTemplateVC
 
 @end

@@ -37,6 +37,11 @@
 		68E4AC791CCF667600143DCD /* DianXinShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4AC771CCF667600143DCD /* DianXinShopCell.m */; };
 		68E4AC7A1CCF667600143DCD /* DianXinShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E4AC781CCF667600143DCD /* DianXinShopCell.xib */; };
 		68E4AC7E1CCF694A00143DCD /* DianXinShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4AC7C1CCF694A00143DCD /* DianXinShopViewController.m */; };
+		BFC832371D3BC87900AA353C /* TalbleViewIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC832361D3BC87900AA353C /* TalbleViewIndex.m */; };
+		BFC8323F1D3BC94700AA353C /* CellDelBtnStyleEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */; };
+		BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */; };
+		BFC832441D3BCBF600AA353C /* EditDelBtnStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */; };
+		BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +122,14 @@
 		68E4AC781CCF667600143DCD /* DianXinShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DianXinShopCell.xib; sourceTree = "<group>"; };
 		68E4AC7B1CCF694A00143DCD /* DianXinShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DianXinShopViewController.h; sourceTree = "<group>"; };
 		68E4AC7C1CCF694A00143DCD /* DianXinShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DianXinShopViewController.m; sourceTree = "<group>"; };
+		BFC832351D3BC87900AA353C /* TalbleViewIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalbleViewIndex.h; sourceTree = "<group>"; };
+		BFC832361D3BC87900AA353C /* TalbleViewIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalbleViewIndex.m; sourceTree = "<group>"; };
+		BFC8323C1D3BC94700AA353C /* CellDelBtnStyleEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDelBtnStyleEdit.h; sourceTree = "<group>"; };
+		BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDelBtnStyleEdit.m; sourceTree = "<group>"; };
+		BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDelBtnStyleEdit.xib; sourceTree = "<group>"; };
+		BFC832411D3BCBF600AA353C /* EditDelBtnStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDelBtnStyleCell.h; sourceTree = "<group>"; };
+		BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDelBtnStyleCell.m; sourceTree = "<group>"; };
+		BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDelBtnStyleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +327,7 @@
 			children = (
 				68E4AC401CCF109900143DCD /* main */,
 				68E4AC411CCF109900143DCD /* UICollectionView */,
+				BFC832331D3BC81800AA353C /* UITableView */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -400,6 +414,37 @@
 				68E4AC741CCF64D000143DCD /* DianXinShopLayout.m */,
 			);
 			path = "电信商城优惠展示效果";
+			sourceTree = "<group>";
+		};
+		BFC832331D3BC81800AA353C /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				BFC832341D3BC83D00AA353C /* tableViewIndex */,
+				BFC832381D3BC8D400AA353C /* cellDeleteBtnStyle */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		BFC832341D3BC83D00AA353C /* tableViewIndex */ = {
+			isa = PBXGroup;
+			children = (
+				BFC832351D3BC87900AA353C /* TalbleViewIndex.h */,
+				BFC832361D3BC87900AA353C /* TalbleViewIndex.m */,
+			);
+			path = tableViewIndex;
+			sourceTree = "<group>";
+		};
+		BFC832381D3BC8D400AA353C /* cellDeleteBtnStyle */ = {
+			isa = PBXGroup;
+			children = (
+				BFC8323C1D3BC94700AA353C /* CellDelBtnStyleEdit.h */,
+				BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */,
+				BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */,
+				BFC832411D3BCBF600AA353C /* EditDelBtnStyleCell.h */,
+				BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */,
+				BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */,
+			);
+			path = cellDeleteBtnStyle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -505,6 +550,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */,
+				BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */,
 				68E4ABF71CCF0E5500143DCD /* LaunchScreen.storyboard in Resources */,
 				68E4AC7A1CCF667600143DCD /* DianXinShopCell.xib in Resources */,
 				68E4AC5E1CCF16D900143DCD /* FlowLayoutCell.xib in Resources */,
@@ -539,10 +586,12 @@
 				68E4AC7E1CCF694A00143DCD /* DianXinShopViewController.m in Sources */,
 				68E4AC511CCF12AE00143DCD /* CollectionViewIndexViewController.m in Sources */,
 				68E4AC751CCF64D000143DCD /* DianXinShopLayout.m in Sources */,
+				BFC832371D3BC87900AA353C /* TalbleViewIndex.m in Sources */,
 				68E4AC631CCF3D2400143DCD /* SelectCellScaleViewController.m in Sources */,
 				68E4AC381CCF0FC200143DCD /* MenuTemplateModel.m in Sources */,
 				68E4AC3E1CCF0FC200143DCD /* UIView+MALFrame.m in Sources */,
 				68E4AC6B1CCF3DDF00143DCD /* ScaleCell.m in Sources */,
+				BFC832441D3BCBF600AA353C /* EditDelBtnStyleCell.m in Sources */,
 				68E4AC671CCF3D9900143DCD /* SelectCellScaleLayout.m in Sources */,
 				68E4AC3C1CCF0FC200143DCD /* UIImage+YN.m in Sources */,
 				68E4AC4B1CCF114500143DCD /* CustomBarItem.m in Sources */,
@@ -556,6 +605,7 @@
 				68E4AC541CCF136900143DCD /* MyNaviViewController.m in Sources */,
 				68E4AC791CCF667600143DCD /* DianXinShopCell.m in Sources */,
 				68E4AC3A1CCF0FC200143DCD /* NSObject+SystemInfo.m in Sources */,
+				BFC8323F1D3BC94700AA353C /* CellDelBtnStyleEdit.m in Sources */,
 				68E4ABE91CCF0E5500143DCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,6 +824,7 @@
 				68E4AC131CCF0E5500143DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E4AC141CCF0E5500143DCD /* Build configuration list for PBXNativeTarget "UIViewStudyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -782,6 +833,7 @@
 				68E4AC161CCF0E5500143DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68E4AC171CCF0E5500143DCD /* Build configuration list for PBXNativeTarget "UIViewStudyDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -790,6 +842,7 @@
 				68E4AC191CCF0E5500143DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
