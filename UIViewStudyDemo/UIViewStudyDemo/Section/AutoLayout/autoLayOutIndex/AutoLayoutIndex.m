@@ -1,19 +1,19 @@
 //
-//  TalbleViewIndex.m
+//  AutoLayoutIndex.m
 //  UIViewStudyDemo
 //
-//  Created by maliang on 16/7/17.
+//  Created by mal on 16/8/22.
 //  Copyright © 2016年 wangtian. All rights reserved.
 //
 
-#import "TalbleViewIndex.h"
-#import "CellDelBtnStyleEdit.h"
+#import "AutoLayoutIndex.h"
+#import "MasontyViewController.h"
 
-@interface TalbleViewIndex ()
+@interface AutoLayoutIndex ()
 
 @end
 
-@implementation TalbleViewIndex
+@implementation AutoLayoutIndex
 
 - (void)viewDidLoad
 {
@@ -25,14 +25,13 @@
 
 - (void)setUpView
 {
-    [self setCenterItemWithTitle:@"UITableView"];
+    [self.navigationItem setTitle:@"AutoLayout"];
 }
 
 - (void)configureDataSource
 {
-    [self addARowWithCellTitle:@"修改cell删除按钮样式" vcClass:[CellDelBtnStyleEdit class] turnType:M_push];
+    [self addARowWithCellTitle:@"Masonry的基本使用" vcClass:[MasontyViewController class] turnType:M_push];
 }
-
 
 - (void)didReceiveMemoryWarning
 {

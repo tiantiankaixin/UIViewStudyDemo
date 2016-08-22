@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20936A0B1D6ABEBF0049D60B /* AutoLayoutIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A0A1D6ABEBF0049D60B /* AutoLayoutIndex.m */; };
+		20936A0F1D6ABFAA0049D60B /* MasontyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A0D1D6ABFAA0049D60B /* MasontyViewController.m */; };
+		20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20936A0E1D6ABFAA0049D60B /* MasontyViewController.xib */; };
+		20936A131D6AC4370049D60B /* UIView+MalDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A121D6AC4370049D60B /* UIView+MalDemo.m */; };
 		68E4ABE91CCF0E5500143DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4ABE81CCF0E5500143DCD /* main.m */; };
 		68E4ABEC1CCF0E5500143DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4ABEB1CCF0E5500143DCD /* AppDelegate.m */; };
 		68E4ABF41CCF0E5500143DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E4ABF31CCF0E5500143DCD /* Assets.xcassets */; };
@@ -37,6 +41,7 @@
 		68E4AC791CCF667600143DCD /* DianXinShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4AC771CCF667600143DCD /* DianXinShopCell.m */; };
 		68E4AC7A1CCF667600143DCD /* DianXinShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E4AC781CCF667600143DCD /* DianXinShopCell.xib */; };
 		68E4AC7E1CCF694A00143DCD /* DianXinShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4AC7C1CCF694A00143DCD /* DianXinShopViewController.m */; };
+		9F05AFB5544D494932479DD9 /* libPods-UIViewStudyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7678E47DB1F8155DD1C54A48 /* libPods-UIViewStudyDemo.a */; };
 		BFC832371D3BC87900AA353C /* TalbleViewIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC832361D3BC87900AA353C /* TalbleViewIndex.m */; };
 		BFC8323F1D3BC94700AA353C /* CellDelBtnStyleEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */; };
 		BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */; };
@@ -62,6 +67,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20936A091D6ABEBF0049D60B /* AutoLayoutIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutIndex.h; sourceTree = "<group>"; };
+		20936A0A1D6ABEBF0049D60B /* AutoLayoutIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutIndex.m; sourceTree = "<group>"; };
+		20936A0C1D6ABFAA0049D60B /* MasontyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasontyViewController.h; sourceTree = "<group>"; };
+		20936A0D1D6ABFAA0049D60B /* MasontyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasontyViewController.m; sourceTree = "<group>"; };
+		20936A0E1D6ABFAA0049D60B /* MasontyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasontyViewController.xib; sourceTree = "<group>"; };
+		20936A111D6AC4370049D60B /* UIView+MalDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MalDemo.h"; sourceTree = "<group>"; };
+		20936A121D6AC4370049D60B /* UIView+MalDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MalDemo.m"; sourceTree = "<group>"; };
 		68E4ABE41CCF0E5500143DCD /* UIViewStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E4ABE81CCF0E5500143DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68E4ABEA1CCF0E5500143DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -122,6 +134,7 @@
 		68E4AC781CCF667600143DCD /* DianXinShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DianXinShopCell.xib; sourceTree = "<group>"; };
 		68E4AC7B1CCF694A00143DCD /* DianXinShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DianXinShopViewController.h; sourceTree = "<group>"; };
 		68E4AC7C1CCF694A00143DCD /* DianXinShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DianXinShopViewController.m; sourceTree = "<group>"; };
+		7678E47DB1F8155DD1C54A48 /* libPods-UIViewStudyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIViewStudyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC832351D3BC87900AA353C /* TalbleViewIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalbleViewIndex.h; sourceTree = "<group>"; };
 		BFC832361D3BC87900AA353C /* TalbleViewIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalbleViewIndex.m; sourceTree = "<group>"; };
 		BFC8323C1D3BC94700AA353C /* CellDelBtnStyleEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDelBtnStyleEdit.h; sourceTree = "<group>"; };
@@ -130,6 +143,8 @@
 		BFC832411D3BCBF600AA353C /* EditDelBtnStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDelBtnStyleCell.h; sourceTree = "<group>"; };
 		BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDelBtnStyleCell.m; sourceTree = "<group>"; };
 		BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDelBtnStyleCell.xib; sourceTree = "<group>"; };
+		D30963B173C3C8D11043D3C2 /* Pods-UIViewStudyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewStudyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewStudyDemo/Pods-UIViewStudyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E0D4F63DD8024A8F7D555877 /* Pods-UIViewStudyDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewStudyDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIViewStudyDemo/Pods-UIViewStudyDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F05AFB5544D494932479DD9 /* libPods-UIViewStudyDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +173,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20936A061D6ABE5C0049D60B /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				20936A081D6ABE7A0049D60B /* autoLayOutIndex */,
+				20936A071D6ABE5C0049D60B /* masonry */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		20936A071D6ABE5C0049D60B /* masonry */ = {
+			isa = PBXGroup;
+			children = (
+				20936A0C1D6ABFAA0049D60B /* MasontyViewController.h */,
+				20936A0D1D6ABFAA0049D60B /* MasontyViewController.m */,
+				20936A0E1D6ABFAA0049D60B /* MasontyViewController.xib */,
+			);
+			path = masonry;
+			sourceTree = "<group>";
+		};
+		20936A081D6ABE7A0049D60B /* autoLayOutIndex */ = {
+			isa = PBXGroup;
+			children = (
+				20936A091D6ABEBF0049D60B /* AutoLayoutIndex.h */,
+				20936A0A1D6ABEBF0049D60B /* AutoLayoutIndex.m */,
+			);
+			path = autoLayOutIndex;
+			sourceTree = "<group>";
+		};
 		68E4ABDB1CCF0E5500143DCD = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +208,8 @@
 				68E4AC001CCF0E5500143DCD /* UIViewStudyDemoTests */,
 				68E4AC0B1CCF0E5500143DCD /* UIViewStudyDemoUITests */,
 				68E4ABE51CCF0E5500143DCD /* Products */,
+				DFCCFDA70E93B3EA5FAC80DA /* Pods */,
+				B681B64C9972AB376D8093E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -308,6 +354,8 @@
 			children = (
 				68E4AC311CCF0FC200143DCD /* UIView+MALFrame.h */,
 				68E4AC321CCF0FC200143DCD /* UIView+MALFrame.m */,
+				20936A111D6AC4370049D60B /* UIView+MalDemo.h */,
+				20936A121D6AC4370049D60B /* UIView+MalDemo.m */,
 			);
 			path = "UIView+YN";
 			sourceTree = "<group>";
@@ -328,6 +376,7 @@
 				68E4AC401CCF109900143DCD /* main */,
 				68E4AC411CCF109900143DCD /* UICollectionView */,
 				BFC832331D3BC81800AA353C /* UITableView */,
+				20936A061D6ABE5C0049D60B /* AutoLayout */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -416,6 +465,14 @@
 			path = "电信商城优惠展示效果";
 			sourceTree = "<group>";
 		};
+		B681B64C9972AB376D8093E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7678E47DB1F8155DD1C54A48 /* libPods-UIViewStudyDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFC832331D3BC81800AA353C /* UITableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -447,6 +504,15 @@
 			path = cellDeleteBtnStyle;
 			sourceTree = "<group>";
 		};
+		DFCCFDA70E93B3EA5FAC80DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4F63DD8024A8F7D555877 /* Pods-UIViewStudyDemo.debug.xcconfig */,
+				D30963B173C3C8D11043D3C2 /* Pods-UIViewStudyDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -454,9 +520,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68E4AC111CCF0E5500143DCD /* Build configuration list for PBXNativeTarget "UIViewStudyDemo" */;
 			buildPhases = (
+				4BABC8DA8CDD881B5383F33F /* Check Pods Manifest.lock */,
 				68E4ABE01CCF0E5500143DCD /* Sources */,
 				68E4ABE11CCF0E5500143DCD /* Frameworks */,
 				68E4ABE21CCF0E5500143DCD /* Resources */,
+				620B4A59ECFB42208E91FDBB /* Embed Pods Frameworks */,
+				CF5029689E421121C2976831 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -550,6 +619,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */,
 				BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */,
 				BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */,
 				68E4ABF71CCF0E5500143DCD /* LaunchScreen.storyboard in Resources */,
@@ -578,6 +648,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BABC8DA8CDD881B5383F33F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		620B4A59ECFB42208E91FDBB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIViewStudyDemo/Pods-UIViewStudyDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5029689E421121C2976831 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIViewStudyDemo/Pods-UIViewStudyDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		68E4ABE01CCF0E5500143DCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -589,13 +707,16 @@
 				BFC832371D3BC87900AA353C /* TalbleViewIndex.m in Sources */,
 				68E4AC631CCF3D2400143DCD /* SelectCellScaleViewController.m in Sources */,
 				68E4AC381CCF0FC200143DCD /* MenuTemplateModel.m in Sources */,
+				20936A0B1D6ABEBF0049D60B /* AutoLayoutIndex.m in Sources */,
 				68E4AC3E1CCF0FC200143DCD /* UIView+MALFrame.m in Sources */,
 				68E4AC6B1CCF3DDF00143DCD /* ScaleCell.m in Sources */,
 				BFC832441D3BCBF600AA353C /* EditDelBtnStyleCell.m in Sources */,
 				68E4AC671CCF3D9900143DCD /* SelectCellScaleLayout.m in Sources */,
 				68E4AC3C1CCF0FC200143DCD /* UIImage+YN.m in Sources */,
+				20936A0F1D6ABFAA0049D60B /* MasontyViewController.m in Sources */,
 				68E4AC4B1CCF114500143DCD /* CustomBarItem.m in Sources */,
 				68E4ABEC1CCF0E5500143DCD /* AppDelegate.m in Sources */,
+				20936A131D6AC4370049D60B /* UIView+MalDemo.m in Sources */,
 				68E4AC451CCF10C900143DCD /* MainMenuViewController.m in Sources */,
 				68E4AC5D1CCF16D900143DCD /* FlowLayoutCell.m in Sources */,
 				68E4AC391CCF0FC200143DCD /* MenuTemplateVC.m in Sources */,
@@ -737,6 +858,7 @@
 		};
 		68E4AC121CCF0E5500143DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D4F63DD8024A8F7D555877 /* Pods-UIViewStudyDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
@@ -749,6 +871,7 @@
 		};
 		68E4AC131CCF0E5500143DCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30963B173C3C8D11043D3C2 /* Pods-UIViewStudyDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";

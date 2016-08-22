@@ -23,11 +23,12 @@
 #import "NSString+YN.h"
 #import "UIImage+YN.h"
 #import "NSObject+SystemInfo.h"
+#import "UIView+MalDemo.h"
 
 #pragma mark - custom tool
 #import "UIViewController+MALNavigation.h"
 
 #pragma mark - vendor header
-
+#import <Masonry.h>
 
 #endif

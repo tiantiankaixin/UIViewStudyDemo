@@ -9,6 +9,7 @@
 #import "MainMenuViewController.h"
 #import "CollectionViewIndexViewController.h"
 #import "TalbleViewIndex.h"
+#import "AutoLayoutIndex.h"
 
 @interface MainMenuViewController ()
 
@@ -33,6 +34,7 @@
 {
     [self addARowWithCellTitle:@"UICollectionView" vcClass:[CollectionViewIndexViewController class] turnType:M_push];
     [self addARowWithCellTitle:@"UITableView" vcClass:[TalbleViewIndex class] turnType:M_push];
+    [self addARowWithCellTitle:@"AutoLayout" vcClass:[AutoLayoutIndex class] turnType:M_push];
 }
 
 - (void)didReceiveMemoryWarning
