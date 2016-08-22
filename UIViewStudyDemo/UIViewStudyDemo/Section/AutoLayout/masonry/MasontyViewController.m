@@ -20,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationItem setTitle:@"Masonry基础使用"];
     UIView *centerView = [UIView mal_viewWithColor:[UIColor redColor]];
     [self.view addSubview:centerView];
     _redView = centerView;

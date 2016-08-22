@@ -11,6 +11,9 @@
 		20936A0F1D6ABFAA0049D60B /* MasontyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A0D1D6ABFAA0049D60B /* MasontyViewController.m */; };
 		20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20936A0E1D6ABFAA0049D60B /* MasontyViewController.xib */; };
 		20936A131D6AC4370049D60B /* UIView+MalDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A121D6AC4370049D60B /* UIView+MalDemo.m */; };
+		20936A1C1D6B0B120049D60B /* TextKitIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A1B1D6B0B120049D60B /* TextKitIndexViewController.m */; };
+		20936A201D6B0B830049D60B /* TextKitGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A1E1D6B0B830049D60B /* TextKitGeneral.m */; };
+		20936A211D6B0B830049D60B /* TextKitGeneral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20936A1F1D6B0B830049D60B /* TextKitGeneral.xib */; };
 		68E4ABE91CCF0E5500143DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4ABE81CCF0E5500143DCD /* main.m */; };
 		68E4ABEC1CCF0E5500143DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4ABEB1CCF0E5500143DCD /* AppDelegate.m */; };
 		68E4ABF41CCF0E5500143DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E4ABF31CCF0E5500143DCD /* Assets.xcassets */; };
@@ -74,6 +77,11 @@
 		20936A0E1D6ABFAA0049D60B /* MasontyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasontyViewController.xib; sourceTree = "<group>"; };
 		20936A111D6AC4370049D60B /* UIView+MalDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MalDemo.h"; sourceTree = "<group>"; };
 		20936A121D6AC4370049D60B /* UIView+MalDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MalDemo.m"; sourceTree = "<group>"; };
+		20936A1A1D6B0B120049D60B /* TextKitIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitIndexViewController.h; sourceTree = "<group>"; };
+		20936A1B1D6B0B120049D60B /* TextKitIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitIndexViewController.m; sourceTree = "<group>"; };
+		20936A1D1D6B0B830049D60B /* TextKitGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitGeneral.h; sourceTree = "<group>"; };
+		20936A1E1D6B0B830049D60B /* TextKitGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitGeneral.m; sourceTree = "<group>"; };
+		20936A1F1D6B0B830049D60B /* TextKitGeneral.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextKitGeneral.xib; sourceTree = "<group>"; };
 		68E4ABE41CCF0E5500143DCD /* UIViewStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E4ABE81CCF0E5500143DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68E4ABEA1CCF0E5500143DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +207,34 @@
 				20936A0A1D6ABEBF0049D60B /* AutoLayoutIndex.m */,
 			);
 			path = autoLayOutIndex;
+			sourceTree = "<group>";
+		};
+		20936A141D6B0ACB0049D60B /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+				20936A151D6B0ACB0049D60B /* textKitIndex */,
+				20936A161D6B0ACB0049D60B /* 凸版印刷效果 */,
+			);
+			path = TextKit;
+			sourceTree = "<group>";
+		};
+		20936A151D6B0ACB0049D60B /* textKitIndex */ = {
+			isa = PBXGroup;
+			children = (
+				20936A1A1D6B0B120049D60B /* TextKitIndexViewController.h */,
+				20936A1B1D6B0B120049D60B /* TextKitIndexViewController.m */,
+			);
+			path = textKitIndex;
+			sourceTree = "<group>";
+		};
+		20936A161D6B0ACB0049D60B /* 凸版印刷效果 */ = {
+			isa = PBXGroup;
+			children = (
+				20936A1D1D6B0B830049D60B /* TextKitGeneral.h */,
+				20936A1E1D6B0B830049D60B /* TextKitGeneral.m */,
+				20936A1F1D6B0B830049D60B /* TextKitGeneral.xib */,
+			);
+			path = "凸版印刷效果";
 			sourceTree = "<group>";
 		};
 		68E4ABDB1CCF0E5500143DCD = {
@@ -377,6 +413,7 @@
 				68E4AC411CCF109900143DCD /* UICollectionView */,
 				BFC832331D3BC81800AA353C /* UITableView */,
 				20936A061D6ABE5C0049D60B /* AutoLayout */,
+				20936A141D6B0ACB0049D60B /* TextKit */,
 			);
 			path = Section;
 			sourceTree = "<group>";
@@ -619,6 +656,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20936A211D6B0B830049D60B /* TextKitGeneral.xib in Resources */,
 				20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */,
 				BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */,
 				BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */,
@@ -708,6 +746,7 @@
 				68E4AC631CCF3D2400143DCD /* SelectCellScaleViewController.m in Sources */,
 				68E4AC381CCF0FC200143DCD /* MenuTemplateModel.m in Sources */,
 				20936A0B1D6ABEBF0049D60B /* AutoLayoutIndex.m in Sources */,
+				20936A1C1D6B0B120049D60B /* TextKitIndexViewController.m in Sources */,
 				68E4AC3E1CCF0FC200143DCD /* UIView+MALFrame.m in Sources */,
 				68E4AC6B1CCF3DDF00143DCD /* ScaleCell.m in Sources */,
 				BFC832441D3BCBF600AA353C /* EditDelBtnStyleCell.m in Sources */,
@@ -724,6 +763,7 @@
 				68E4AC3B1CCF0FC200143DCD /* NSString+YN.m in Sources */,
 				68E4AC4C1CCF114500143DCD /* UIViewController+MALNavigation.m in Sources */,
 				68E4AC541CCF136900143DCD /* MyNaviViewController.m in Sources */,
+				20936A201D6B0B830049D60B /* TextKitGeneral.m in Sources */,
 				68E4AC791CCF667600143DCD /* DianXinShopCell.m in Sources */,
 				68E4AC3A1CCF0FC200143DCD /* NSObject+SystemInfo.m in Sources */,
 				BFC8323F1D3BC94700AA353C /* CellDelBtnStyleEdit.m in Sources */,
