@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		208B48031DAA632800C3B2D2 /* TableTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B48011DAA632800C3B2D2 /* TableTextViewController.m */; };
+		208B48041DAA632800C3B2D2 /* TableTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208B48021DAA632800C3B2D2 /* TableTextViewController.xib */; };
+		208B48081DAA63BB00C3B2D2 /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B48061DAA63BB00C3B2D2 /* TextViewCell.m */; };
+		208B48091DAA63BB00C3B2D2 /* TextViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 208B48071DAA63BB00C3B2D2 /* TextViewCell.xib */; };
 		20936A0B1D6ABEBF0049D60B /* AutoLayoutIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A0A1D6ABEBF0049D60B /* AutoLayoutIndex.m */; };
 		20936A0F1D6ABFAA0049D60B /* MasontyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A0D1D6ABFAA0049D60B /* MasontyViewController.m */; };
 		20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20936A0E1D6ABFAA0049D60B /* MasontyViewController.xib */; };
@@ -70,6 +74,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		208B48001DAA632800C3B2D2 /* TableTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTextViewController.h; sourceTree = "<group>"; };
+		208B48011DAA632800C3B2D2 /* TableTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTextViewController.m; sourceTree = "<group>"; };
+		208B48021DAA632800C3B2D2 /* TableTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableTextViewController.xib; sourceTree = "<group>"; };
+		208B48051DAA63BB00C3B2D2 /* TextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
+		208B48061DAA63BB00C3B2D2 /* TextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewCell.m; sourceTree = "<group>"; };
+		208B48071DAA63BB00C3B2D2 /* TextViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewCell.xib; sourceTree = "<group>"; };
 		20936A091D6ABEBF0049D60B /* AutoLayoutIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutIndex.h; sourceTree = "<group>"; };
 		20936A0A1D6ABEBF0049D60B /* AutoLayoutIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutIndex.m; sourceTree = "<group>"; };
 		20936A0C1D6ABFAA0049D60B /* MasontyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasontyViewController.h; sourceTree = "<group>"; };
@@ -181,6 +191,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208B47FF1DAA4F8B00C3B2D2 /* tableViewTextView */ = {
+			isa = PBXGroup;
+			children = (
+				208B48001DAA632800C3B2D2 /* TableTextViewController.h */,
+				208B48011DAA632800C3B2D2 /* TableTextViewController.m */,
+				208B48021DAA632800C3B2D2 /* TableTextViewController.xib */,
+				208B48051DAA63BB00C3B2D2 /* TextViewCell.h */,
+				208B48061DAA63BB00C3B2D2 /* TextViewCell.m */,
+				208B48071DAA63BB00C3B2D2 /* TextViewCell.xib */,
+			);
+			path = tableViewTextView;
+			sourceTree = "<group>";
+		};
 		20936A061D6ABE5C0049D60B /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +538,7 @@
 			children = (
 				BFC832341D3BC83D00AA353C /* tableViewIndex */,
 				BFC832381D3BC8D400AA353C /* cellDeleteBtnStyle */,
+				208B47FF1DAA4F8B00C3B2D2 /* tableViewTextView */,
 			);
 			path = UITableView;
 			sourceTree = "<group>";
@@ -660,6 +684,8 @@
 				20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */,
 				BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */,
 				BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */,
+				208B48091DAA63BB00C3B2D2 /* TextViewCell.xib in Resources */,
+				208B48041DAA632800C3B2D2 /* TableTextViewController.xib in Resources */,
 				68E4ABF71CCF0E5500143DCD /* LaunchScreen.storyboard in Resources */,
 				68E4AC7A1CCF667600143DCD /* DianXinShopCell.xib in Resources */,
 				68E4AC5E1CCF16D900143DCD /* FlowLayoutCell.xib in Resources */,
@@ -739,12 +765,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				208B48031DAA632800C3B2D2 /* TableTextViewController.m in Sources */,
 				68E4AC7E1CCF694A00143DCD /* DianXinShopViewController.m in Sources */,
 				68E4AC511CCF12AE00143DCD /* CollectionViewIndexViewController.m in Sources */,
 				68E4AC751CCF64D000143DCD /* DianXinShopLayout.m in Sources */,
 				BFC832371D3BC87900AA353C /* TalbleViewIndex.m in Sources */,
 				68E4AC631CCF3D2400143DCD /* SelectCellScaleViewController.m in Sources */,
 				68E4AC381CCF0FC200143DCD /* MenuTemplateModel.m in Sources */,
+				208B48081DAA63BB00C3B2D2 /* TextViewCell.m in Sources */,
 				20936A0B1D6ABEBF0049D60B /* AutoLayoutIndex.m in Sources */,
 				20936A1C1D6B0B120049D60B /* TextKitIndexViewController.m in Sources */,
 				68E4AC3E1CCF0FC200143DCD /* UIView+MALFrame.m in Sources */,

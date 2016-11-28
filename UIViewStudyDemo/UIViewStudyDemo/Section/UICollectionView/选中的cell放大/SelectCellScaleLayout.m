@@ -62,18 +62,15 @@ static CGFloat cellMargin = 30;
     CGFloat centerX = visibleRect.origin.x + visibleRect.size.width / 2;
     for (UICollectionViewLayoutAttributes *attributes in self.layoutArray)
     {
-        if (CGRectIntersectsRect(rect, attributes.frame))
+        CGFloat distance = centerX - attributes.center.x;//item到中心点的距离
+        if (ABS(distance) <= ITEM_SIZE + cellMargin)
         {
-           CGFloat distance = centerX - attributes.center.x;//item到中心点的距离
-            if (ABS(distance) <= ITEM_SIZE + cellMargin)
-            {
-                CGFloat scale = distance / (ITEM_SIZE + cellMargin);
-                CGFloat zoomScale = 1 + AddScale * (1 - ABS(scale));
-                attributes.transform3D = CATransform3DMakeScale(zoomScale, zoomScale, 1.0);//x,y轴方向变换
-                attributes.zIndex = 1;
-            }
-           [returnArray addObject:attributes];
+            CGFloat scale = distance / (ITEM_SIZE + cellMargin);
+            CGFloat zoomScale = 1 + AddScale * (1 - ABS(scale));
+            attributes.transform3D = CATransform3DMakeScale(zoomScale, zoomScale, 1.0);//x,y轴方向变换
+            attributes.zIndex = 1;
         }
+        [returnArray addObject:attributes];
     }
     return returnArray;
 }

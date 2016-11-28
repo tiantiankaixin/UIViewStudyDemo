@@ -8,6 +8,7 @@
 
 #import "TalbleViewIndex.h"
 #import "CellDelBtnStyleEdit.h"
+#import "TableTextViewController.h"
 
 @interface TalbleViewIndex ()
 
@@ -31,6 +32,7 @@
 - (void)configureDataSource
 {
     [self addARowWithCellTitle:@"修改cell删除按钮样式" vcClass:[CellDelBtnStyleEdit class] turnType:M_push];
+    [self addARowWithCellTitle:@"tableView + textView" vcClass:[TableTextViewController class] turnType:M_push];
 }
 
 
