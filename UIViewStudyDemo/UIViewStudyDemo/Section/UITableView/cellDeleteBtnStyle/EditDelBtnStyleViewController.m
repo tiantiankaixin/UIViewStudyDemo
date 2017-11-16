@@ -6,16 +6,18 @@
 //  Copyright © 2016年 wangtian. All rights reserved.
 //
 
-#import "CellDelBtnStyleEdit.h"
+#import "EditDelBtnStyleViewController.h"
 #import "EditDelBtnStyleCell.h"
+#import "MTableView.h"
 
-@interface CellDelBtnStyleEdit ()
+@interface EditDelBtnStyleViewController ()
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
+@property (weak, nonatomic) IBOutlet MTableView *tableView;
 
 @end
 
-@implementation CellDelBtnStyleEdit
+@implementation EditDelBtnStyleViewController
 
 - (NSMutableArray *)dataSource
 {
@@ -86,21 +88,22 @@
     return @"点击删除";
 }
 
-- (nullable UISwipeActionsConfiguration *)tableView:(UITableView *)tableView trailingSwipeActionsConfigurationForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (@available(iOS 11.0, *)) {
-        UIContextualAction *delAction = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleDestructive title:@"删掉" handler:^(UIContextualAction * _Nonnull action, __kindof UIView * _Nonnull sourceView, void (^ _Nonnull completionHandler)(BOOL)) {
-            
-            
-            if (completionHandler)
-            {
-                completionHandler(YES);
-            }
-        }];
-        
-        return [UISwipeActionsConfiguration configurationWithActions:@[delAction]];
-    }
-    return nil;
-}
+//- (nullable UISwipeActionsConfiguration *)tableView:(UITableView *)tableView trailingSwipeActionsConfigurationForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if (@available(iOS 11.0, *)) {
+//        UIContextualAction *delAction = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleDestructive title:@"删掉" handler:^(UIContextualAction * _Nonnull action, __kindof UIView * _Nonnull sourceView, void (^ _Nonnull completionHandler)(BOOL)) {
+//            
+//            
+//            if (completionHandler)
+//            {
+//                completionHandler(YES);
+//            }
+//        }];
+//        
+//        return [UISwipeActionsConfiguration configurationWithActions:@[delAction]];
+//    }
+//    return nil;
+//}
 
 @end
+

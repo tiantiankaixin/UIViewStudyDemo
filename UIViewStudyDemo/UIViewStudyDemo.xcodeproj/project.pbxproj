@@ -18,6 +18,9 @@
 		20936A1C1D6B0B120049D60B /* TextKitIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A1B1D6B0B120049D60B /* TextKitIndexViewController.m */; };
 		20936A201D6B0B830049D60B /* TextKitGeneral.m in Sources */ = {isa = PBXBuildFile; fileRef = 20936A1E1D6B0B830049D60B /* TextKitGeneral.m */; };
 		20936A211D6B0B830049D60B /* TextKitGeneral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20936A1F1D6B0B830049D60B /* TextKitGeneral.xib */; };
+		20BA425F1FBD8924008542C9 /* MTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA425E1FBD8924008542C9 /* MTableView.m */; };
+		20BA42631FBD89A7008542C9 /* EditDelBtnStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BA42611FBD89A7008542C9 /* EditDelBtnStyleViewController.m */; };
+		20BA42641FBD89A8008542C9 /* EditDelBtnStyleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20BA42621FBD89A7008542C9 /* EditDelBtnStyleViewController.xib */; };
 		68E4ABE91CCF0E5500143DCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4ABE81CCF0E5500143DCD /* main.m */; };
 		68E4ABEC1CCF0E5500143DCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4ABEB1CCF0E5500143DCD /* AppDelegate.m */; };
 		68E4ABF41CCF0E5500143DCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E4ABF31CCF0E5500143DCD /* Assets.xcassets */; };
@@ -50,8 +53,6 @@
 		68E4AC7E1CCF694A00143DCD /* DianXinShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E4AC7C1CCF694A00143DCD /* DianXinShopViewController.m */; };
 		9F05AFB5544D494932479DD9 /* libPods-UIViewStudyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7678E47DB1F8155DD1C54A48 /* libPods-UIViewStudyDemo.a */; };
 		BFC832371D3BC87900AA353C /* TalbleViewIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC832361D3BC87900AA353C /* TalbleViewIndex.m */; };
-		BFC8323F1D3BC94700AA353C /* CellDelBtnStyleEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */; };
-		BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */; };
 		BFC832441D3BCBF600AA353C /* EditDelBtnStyleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */; };
 		BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,11 @@
 		20936A1D1D6B0B830049D60B /* TextKitGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitGeneral.h; sourceTree = "<group>"; };
 		20936A1E1D6B0B830049D60B /* TextKitGeneral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitGeneral.m; sourceTree = "<group>"; };
 		20936A1F1D6B0B830049D60B /* TextKitGeneral.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextKitGeneral.xib; sourceTree = "<group>"; };
+		20BA425D1FBD8924008542C9 /* MTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTableView.h; sourceTree = "<group>"; };
+		20BA425E1FBD8924008542C9 /* MTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTableView.m; sourceTree = "<group>"; };
+		20BA42601FBD89A7008542C9 /* EditDelBtnStyleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditDelBtnStyleViewController.h; sourceTree = "<group>"; };
+		20BA42611FBD89A7008542C9 /* EditDelBtnStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditDelBtnStyleViewController.m; sourceTree = "<group>"; };
+		20BA42621FBD89A7008542C9 /* EditDelBtnStyleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditDelBtnStyleViewController.xib; sourceTree = "<group>"; };
 		68E4ABE41CCF0E5500143DCD /* UIViewStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E4ABE81CCF0E5500143DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68E4ABEA1CCF0E5500143DCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,9 +161,6 @@
 		7678E47DB1F8155DD1C54A48 /* libPods-UIViewStudyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIViewStudyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC832351D3BC87900AA353C /* TalbleViewIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalbleViewIndex.h; sourceTree = "<group>"; };
 		BFC832361D3BC87900AA353C /* TalbleViewIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalbleViewIndex.m; sourceTree = "<group>"; };
-		BFC8323C1D3BC94700AA353C /* CellDelBtnStyleEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDelBtnStyleEdit.h; sourceTree = "<group>"; };
-		BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDelBtnStyleEdit.m; sourceTree = "<group>"; };
-		BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellDelBtnStyleEdit.xib; sourceTree = "<group>"; };
 		BFC832411D3BCBF600AA353C /* EditDelBtnStyleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditDelBtnStyleCell.h; sourceTree = "<group>"; };
 		BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditDelBtnStyleCell.m; sourceTree = "<group>"; };
 		BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditDelBtnStyleCell.xib; sourceTree = "<group>"; };
@@ -555,12 +558,14 @@
 		BFC832381D3BC8D400AA353C /* cellDeleteBtnStyle */ = {
 			isa = PBXGroup;
 			children = (
-				BFC8323C1D3BC94700AA353C /* CellDelBtnStyleEdit.h */,
-				BFC8323D1D3BC94700AA353C /* CellDelBtnStyleEdit.m */,
-				BFC8323E1D3BC94700AA353C /* CellDelBtnStyleEdit.xib */,
+				20BA42601FBD89A7008542C9 /* EditDelBtnStyleViewController.h */,
+				20BA42611FBD89A7008542C9 /* EditDelBtnStyleViewController.m */,
+				20BA42621FBD89A7008542C9 /* EditDelBtnStyleViewController.xib */,
 				BFC832411D3BCBF600AA353C /* EditDelBtnStyleCell.h */,
 				BFC832421D3BCBF600AA353C /* EditDelBtnStyleCell.m */,
 				BFC832431D3BCBF600AA353C /* EditDelBtnStyleCell.xib */,
+				20BA425D1FBD8924008542C9 /* MTableView.h */,
+				20BA425E1FBD8924008542C9 /* MTableView.m */,
 			);
 			path = cellDeleteBtnStyle;
 			sourceTree = "<group>";
@@ -682,7 +687,6 @@
 			files = (
 				20936A211D6B0B830049D60B /* TextKitGeneral.xib in Resources */,
 				20936A101D6ABFAA0049D60B /* MasontyViewController.xib in Resources */,
-				BFC832401D3BC94700AA353C /* CellDelBtnStyleEdit.xib in Resources */,
 				BFC832451D3BCBF600AA353C /* EditDelBtnStyleCell.xib in Resources */,
 				208B48091DAA63BB00C3B2D2 /* TextViewCell.xib in Resources */,
 				208B48041DAA632800C3B2D2 /* TableTextViewController.xib in Resources */,
@@ -690,6 +694,7 @@
 				68E4AC7A1CCF667600143DCD /* DianXinShopCell.xib in Resources */,
 				68E4AC5E1CCF16D900143DCD /* FlowLayoutCell.xib in Resources */,
 				68E4ABF41CCF0E5500143DCD /* Assets.xcassets in Resources */,
+				20BA42641FBD89A8008542C9 /* EditDelBtnStyleViewController.xib in Resources */,
 				68E4AC641CCF3D2400143DCD /* SelectCellScaleViewController.xib in Resources */,
 				68E4AC6C1CCF3DDF00143DCD /* ScaleCell.xib in Resources */,
 				68E4AC591CCF163E00143DCD /* FlowLayoutViewController.xib in Resources */,
@@ -774,6 +779,7 @@
 				68E4AC381CCF0FC200143DCD /* MenuTemplateModel.m in Sources */,
 				208B48081DAA63BB00C3B2D2 /* TextViewCell.m in Sources */,
 				20936A0B1D6ABEBF0049D60B /* AutoLayoutIndex.m in Sources */,
+				20BA42631FBD89A7008542C9 /* EditDelBtnStyleViewController.m in Sources */,
 				20936A1C1D6B0B120049D60B /* TextKitIndexViewController.m in Sources */,
 				68E4AC3E1CCF0FC200143DCD /* UIView+MALFrame.m in Sources */,
 				68E4AC6B1CCF3DDF00143DCD /* ScaleCell.m in Sources */,
@@ -788,13 +794,13 @@
 				68E4AC5D1CCF16D900143DCD /* FlowLayoutCell.m in Sources */,
 				68E4AC391CCF0FC200143DCD /* MenuTemplateVC.m in Sources */,
 				68E4AC581CCF163E00143DCD /* FlowLayoutViewController.m in Sources */,
+				20BA425F1FBD8924008542C9 /* MTableView.m in Sources */,
 				68E4AC3B1CCF0FC200143DCD /* NSString+YN.m in Sources */,
 				68E4AC4C1CCF114500143DCD /* UIViewController+MALNavigation.m in Sources */,
 				68E4AC541CCF136900143DCD /* MyNaviViewController.m in Sources */,
 				20936A201D6B0B830049D60B /* TextKitGeneral.m in Sources */,
 				68E4AC791CCF667600143DCD /* DianXinShopCell.m in Sources */,
 				68E4AC3A1CCF0FC200143DCD /* NSObject+SystemInfo.m in Sources */,
-				BFC8323F1D3BC94700AA353C /* CellDelBtnStyleEdit.m in Sources */,
 				68E4ABE91CCF0E5500143DCD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -931,6 +937,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = UIViewStudyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shidaiyinuo.UIViewStudyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -944,6 +951,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = UIViewStudyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shidaiyinuo.UIViewStudyDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
