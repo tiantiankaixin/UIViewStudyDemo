@@ -51,6 +51,17 @@
         make.right.equalTo(centerView).offset(-padding);
         make.height.equalTo(view1);
         make.width.equalTo(view1);
+        make.width.mas_equalTo(10);
+    }];
+    
+    UILabel *testLB = [[UILabel alloc] init];
+    testLB.backgroundColor = [UIColor redColor];
+    testLB.text = @"test label";
+    [self.view addSubview:testLB];
+    [testLB mas_makeConstraints:^(MASConstraintMaker *make) {
+
+        make.left.top.equalTo(self.view).offset(10);
+        make.right.lessThanOrEqualTo(self.view).offset(-10);
     }];
 }
 

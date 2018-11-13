@@ -40,7 +40,7 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     ScaleCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:SelectCellScale_Identifier forIndexPath:indexPath];
-    //[cell setCellWithIndexPath:indexPath];
+    [cell setCellWithIndexPath:indexPath];
     return cell;
 }
 

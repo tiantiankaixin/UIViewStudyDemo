@@ -106,6 +106,7 @@ static CGFloat cellMargin = 30;
     if (nearAtt)
     {
        proposedContentOffset.x = nearAtt.center.x - targetRect.size.width / 2;
+       NSLog(@"%ld",nearAtt.indexPath.row);
     }
     //返回调整好的point
     return CGPointMake(proposedContentOffset.x, proposedContentOffset.y);

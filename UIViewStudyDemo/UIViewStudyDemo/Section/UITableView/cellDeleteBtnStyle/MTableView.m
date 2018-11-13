@@ -15,11 +15,7 @@
     [super layoutSubviews];
     for (UIView *subView in self.subviews)
     {
-        if ([subView isKindOfClass:[UITableViewCell class]])
-        {}
-        else if ([subView isKindOfClass:[UIImageView class]])
-        {}
-        else
+        if ([subView isKindOfClass:NSClassFromString(@"UISwipeActionPullView")])
         {
             subView.backgroundColor = [UIColor orangeColor];
             for (UIView *view in subView.subviews)

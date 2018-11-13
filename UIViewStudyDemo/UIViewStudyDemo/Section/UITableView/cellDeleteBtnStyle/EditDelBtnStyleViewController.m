@@ -10,7 +10,7 @@
 #import "EditDelBtnStyleCell.h"
 #import "MTableView.h"
 
-@interface EditDelBtnStyleViewController ()
+@interface EditDelBtnStyleViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @property (weak, nonatomic) IBOutlet MTableView *tableView;

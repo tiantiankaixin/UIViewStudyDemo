@@ -25,6 +25,7 @@
     {
         self.imView.backgroundColor = [UIColor orangeColor];
     }
+    self.cellTitle_LB.text = [NSString stringWithFormat:@"%ld",path.row];
 }
 
 @end

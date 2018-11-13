@@ -5,7 +5,8 @@
 
 target 'UIViewStudyDemo' do
 
-pod 'Masonry' 
+pod 'Masonry'
+pod 'MJExtension', '~> 3.0.15.1'
 
 end
 
